@@ -17,7 +17,6 @@ public class RNVersionNumberPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNVersionNumberModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
